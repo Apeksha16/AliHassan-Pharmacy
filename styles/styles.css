@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+
+    font-family: "Plus Jakarta Sans", serif;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #16215b;
+}
+.nav-links {
+  border-radius: 156px;
+  border: 2px solid #cecece;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+}
+.nav-links a {
+  padding: 10px 30px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  display: flex;
+  gap: 6px;
+}
+
+.nav-links a span {
+  font-weight: 400;
+}
+
+.nav-links a:hover {
+  border: 1px solid #cecece;
+}
+
+.nav-links svg {
+  height: 12px;
+  fill: #16215b;
+}
+
+.nav-links .active {
+  background-color: #0070fa;
+  color: white;
+  align-items: end;
+}
+
+.nav-links a:not(.active) {
+  align-items: center;
+}
+
+.btn-get-in-touch {
+  padding: 18px 22px;
+  background: #0070fa;
+  color: white;
+  border-radius: 37px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-get-in-touch span{
+  color:white;
+}
+.site-logo {
+  height: 64px;
+}
+.btn-get-in-touch:hover {
+  background: #2563eb;
+}
+
+.pharmacy-main-img{
+  display: block;
+  max-width: calc(100% - 52px);
+  margin: 28px auto;
+  height: auto;
+}
